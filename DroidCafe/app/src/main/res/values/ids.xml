@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="order_intro_text" type="id" />
+    <item name="action_order" type="id" />
+    <item name="action_status" type="id" />
+    <item name="action_favorites" type="id" />
+    <item name="action_contact" type="id" />
+    <item name="sameday" type="id" />
+    <item name="nextday" type="id" />
+    <item name="pickup" type="id" />
+</resources>

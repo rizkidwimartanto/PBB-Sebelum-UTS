@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lifecycle Callback TwoActivities</string>
+    <string name="button_main">Send</string>
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="text_header">Message Received</string>
+    <string name="activity2_name">Second Activities</string>
+</resources>

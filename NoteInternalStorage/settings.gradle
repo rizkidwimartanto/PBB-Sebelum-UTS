@@ -1,0 +1,2 @@
+rootProject.name='Note Internal Storage'
+include ':app'

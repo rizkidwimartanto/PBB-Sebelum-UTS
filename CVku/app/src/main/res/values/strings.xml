@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CVKU</string>
+    <string name="textview_nama">Rizki Dwi Martanto</string>
+    <string name="foto_wildan">foto_rizki</string>
+    <string name="cv_ku">CV KU</string>
+    <string name="textview_nim">Nim = A11.2018.11468</string>
+    <string name="textview_alamat">Alamat = Jalan Sri Rejeki IV</string>
+    <string name="textview_telepon">Telepon = 089531584234</string>
+    <string name="textview_email">Email = rizkidwimartanto@gmail.com</string>
+    <string name="activity2_name">Biodata</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahActivity">
+
+    <EditText
+        android:id="@+id/editKodeBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:hint="Input Kode Barang" />
+    <EditText
+        android:id="@+id/editNamaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editKodeBarang"
+        android:hint="Input Nama Barang" />
+    <EditText
+        android:id="@+id/editHargaBeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editNamaBarang"
+        android:hint="Input Harga Beli" />
+    <EditText
+        android:id="@+id/editHargaJual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editHargaBeli"
+        android:hint="Input Harga Jual" />
+    <EditText
+        android:id="@+id/editStok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editHargaJual"
+        android:hint="Input Stok" />
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editStok"
+        android:layout_weight="0.5"
+        android:text="Tambah" />
+    <Button
+        android:id="@+id/btnBatal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTambah"
+        android:layout_weight="0.5"
+        android:text="Batal" />
+
+</RelativeLayout>

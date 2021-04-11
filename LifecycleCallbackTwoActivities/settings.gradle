@@ -1,0 +1,2 @@
+rootProject.name='Lifecycle Callback TwoActivities'
+include ':app'

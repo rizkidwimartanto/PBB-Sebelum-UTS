@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_android"
+    tools:context=".Peruqyah1Activity">
+
+    <ImageView
+        android:src="@drawable/habibumar"
+        android:layout_marginTop="100sp"
+        android:id="@+id/gambar_peruqyah"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"/>
+
+    <TextView
+        android:id="@+id/text_nama"
+        android:layout_below="@id/gambar_peruqyah"
+        android:text="Nama : Habib Umar bin Hafidz"
+        android:textSize="20sp"
+        android:gravity="fill"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        android:layout_width="300sp"
+        android:layout_marginLeft="50sp"
+        android:layout_height="50sp"/>
+    <TextView
+        android:id="@+id/text_asal"
+        android:layout_below="@id/text_nama"
+        android:text="Asal : Yaman, Tarim"
+        android:textSize="20sp"
+        android:gravity="fill"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        android:layout_width="300sp"
+        android:layout_marginLeft="50sp"
+        android:layout_height="50sp"/>
+    <Button
+        android:id="@+id/btn_lokasi"
+        android:layout_below="@id/text_asal"
+        android:text="Lokasi"
+        android:onClick="click_lokasi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"/>
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_below="@id/btn_lokasi"
+        android:text="Order"
+        android:onClick="click_hubungi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Login Shared Preferences</string>
+    <string name="lokasi_yaman">https://maps.app.goo.gl/P1k22QC8BKewqe7R9</string>
+    <string name="lokasi_uniemiratarab">https://maps.app.goo.gl/3k989obL9QKZCtJT6</string>
+    <string name="website">http://www.ruqyahaswaja.com/</string>
+    <string name="video">https://youtu.be/KSNz8KgxBV0</string>
+    <string name="text_ruqyah">
+        Pengertian ruqyah secara terminologi adalah al-‘udzah (sebuah perlindungan) yang digunakan untuk melindungi orang yang terkena penyakit, seperti panas karena disengat binatang, kesurupan, dan yang lainnya.[8] Ruqyah terkadang disebut pula dengan ‘azimah (azimat). Fairuz Abadi berkata: “Yang dimaksud ‘azimah-‘azimah adalah ruqyah-ruqyah. Sedangkan ruqyah yaitu ayat-ayat Al-Qur`an yang dibacakan terhadap orang-orang yang terkena berbagai penyakit dengan mengharap kesembuhan.”[9]
+    </string>
+    <string name="text_bekam">
+        Bekam (Arab: الحجامة; al-hijamah) adalah metode pengobatan dengan cara mengeluarkan darah statis (kental) yang mengandung toksin dari dalam tubuh manusia. Berbekam dengan cara melakukan pemvakuman di kulit dan pengeluaran darah darinya. Pengertian ini mencakup dua mekanisme pokok dari bekam, yaitu proses pemvakuman kulit kemudian dilanjutkan dengan pengeluaran darah dari kulit yang telah divakum sebelumnya
+    </string>
+    <string name="text_totok">
+        Totok adalah tekanan ujung jari pada titik – titik akupuntur. Pada prinsipnya totok mirip dengan akupuntur, yaitu menstimulasi titik – titik akupuntur yang ada disepanjang meridian tubuh. Media yang digunakan totok adalah ujung jari – jemari tangan sambil mengalirkan energi ke tubuh pasien. Energi yang masuk tersebut bersifat hangat sehingga bila masuk ke dalam peredaran darah bisa menghancurkan lemak atau emboli yang ada dan akan membuat darah lancer mengalir.
+    </string>
+    <string name="call_centre">
+        Call Center Pusat : 082229999227
+    </string>
+    <string name="email">
+        E-mail : ruqyahaswaja.jra@gmail.com
+    </string>
+</resources>

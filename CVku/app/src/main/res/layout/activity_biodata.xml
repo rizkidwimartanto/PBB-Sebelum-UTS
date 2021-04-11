@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+<TextView
+    android:id="@+id/textView_Nama"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:background="#FFEB3B"
+    android:textColor="#101010"
+    android:text="@string/textview_nama"
+    android:gravity="center_horizontal" />
+<TextView
+    android:id="@+id/textView_Nim"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView_Nama"
+    android:text="@string/textview_nim" />
+<TextView
+    android:id="@+id/textView_alamat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView_Nim"
+    android:text="@string/textview_alamat" />
+<TextView
+    android:id="@+id/textView_Telepon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView_alamat"
+    android:text="@string/textview_telepon" />
+<TextView
+    android:id="@+id/textView_Email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textView_Telepon"
+    android:text="@string/textview_email" />
+<ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView_Email"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="false"
+    android:layout_marginStart="0dp"
+
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="10dp"
+    android:contentDescription="@string/foto_wildan"
+    android:scaleType="fitXY"
+    app:srcCompat="@drawable/aku" />
+</RelativeLayout>

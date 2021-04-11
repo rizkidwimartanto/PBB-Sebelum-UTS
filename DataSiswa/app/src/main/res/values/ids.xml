@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="inp_nama" type="id" />
+    <item name="inp_alamat" type="id" />
+    <item name="editNis" type="id" />
+    <item name="editNama" type="id" />
+    <item name="btnTambah" type="id" />
+    <item name="btnBatal" type="id" />
+    <item name="btnUpdate" type="id" />
+</resources>
